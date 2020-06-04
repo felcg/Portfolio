@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/felcg/Portfolio/static/css/main.f8dd6ebb.chunk.css",
+    "main.js": "/felcg/Portfolio/static/js/main.1310e99a.chunk.js",
+    "main.js.map": "/felcg/Portfolio/static/js/main.1310e99a.chunk.js.map",
+    "runtime-main.js": "/felcg/Portfolio/static/js/runtime-main.e45c3d2d.js",
+    "runtime-main.js.map": "/felcg/Portfolio/static/js/runtime-main.e45c3d2d.js.map",
+    "static/js/2.68468765.chunk.js": "/felcg/Portfolio/static/js/2.68468765.chunk.js",
+    "static/js/2.68468765.chunk.js.map": "/felcg/Portfolio/static/js/2.68468765.chunk.js.map",
+    "index.html": "/felcg/Portfolio/index.html",
+    "precache-manifest.4c23bca8b07bc63326c33cf7e58ba4b3.js": "/felcg/Portfolio/precache-manifest.4c23bca8b07bc63326c33cf7e58ba4b3.js",
+    "service-worker.js": "/felcg/Portfolio/service-worker.js",
+    "static/css/main.f8dd6ebb.chunk.css.map": "/felcg/Portfolio/static/css/main.f8dd6ebb.chunk.css.map",
+    "static/js/2.68468765.chunk.js.LICENSE.txt": "/felcg/Portfolio/static/js/2.68468765.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e45c3d2d.js",
+    "static/js/2.68468765.chunk.js",
+    "static/css/main.f8dd6ebb.chunk.css",
+    "static/js/main.1310e99a.chunk.js"
+  ]
+}
