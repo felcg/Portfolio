@@ -1,0 +1,31 @@
+$primary: #5c788e;
+$secondary: #4d5067;
+$dark: #23263a;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+.page {
+    padding-left: 17rem;
+    height: 100vh;
+}
+
+.sections-container {
+    height: 100%;
+}
+
+.project-card {
+    color: white
+}
+
+.sidenav {text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+    color: $white;
+}
