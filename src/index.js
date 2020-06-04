@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './assets/custom.scss'
 import App from './components/App'
 import ErrorBoundary from './components/ErrorBoundary'
+import './fontawesome'
 
 
 const refresh = () => render(

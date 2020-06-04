@@ -1,31 +1,132 @@
-$primary: #5c788e;
-$secondary: #4d5067;
-$dark: #23263a;
+$primary: #fff;
+$secondary: #949495;
+$dark: #151515;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-
-
-.page {
-    padding-left: 17rem;
-    height: 100vh;
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: $dark;
 }
 
-.sections-container {
-    height: 100%;
+
+.icons-div {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.icons-img {
+    margin-right: .5rem;
+}
+
+.icons-link {
+    margin-right: 2rem;
+}
+
+.projects-container {
+    flex-direction: column;
+    display: flex;
 }
 
 .project-card {
-    color: white
+    background-color: #202022;
+    margin-bottom: 2rem;
+    max-width: 690px;
+
+    .card-text {
+        margin-bottom: 0;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .card-link-div  {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
-.sidenav {text-align: center;
-    position: fixed;
+
+.page {
+    height: 100vh;
+    background-color: $dark;
+}
+
+.sidenav {
+    text-align: center;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
-    height: 100vh;
-    color: $white;
+    padding: 2rem 2rem 2rem 2rem;
+    position: relative;
+}
+
+.text-welcome {
+    margin-right: auto;
+    text-align: left;
+    
+    h1{
+        font-size: 3.5rem;
+        font-family: 'Gothic A1', sans-serif;
+    }
+
+    p {
+        line-height: 1.8;
+    }
+}
+
+.projects-container {
+    font-family: 'Gothic A1', sans-serif;
+    h1 {
+        letter-spacing: -1px;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+
+    .card {
+        border: none;
+        
+        .card-text {
+            letter-spacing: -1px;
+        }
+    }
+}
+
+
+
+@media (min-width: 992px){
+    .sidenav {
+        max-width: 500px;
+        height: 100vh;
+        position: fixed;
+        padding: 5rem;
+    }
+
+    .sections-container {
+        padding-left: 500px;
+        height: 100vh;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .sidenav {
+        max-width: 800px;
+        padding-left: 20rem;
+    }
+
+    .sections-container {
+        padding-left: 800px;
+    }
+}
+
+
+
+
+.font-weight-light {
+    font-weight: 300;
+}
+
+.font-weight-bold {
+    font-weight: 700;
 }

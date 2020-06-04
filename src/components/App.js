@@ -4,8 +4,8 @@ import Navbar from './Navbar'
 import '../assets/custom.scss'
 
 export default () => (
-  <div className="page">
+  <>
     <Navbar />
     <Router />
-  </div>
+  </>
 )
