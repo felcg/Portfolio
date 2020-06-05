@@ -1,6 +1,7 @@
 $primary: #fff;
 $secondary: #949495;
-$dark: #151515;
+$dark: #23263a;
+$light: #ffffffb0;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -18,6 +19,7 @@ body {
 
 .icons-img {
     margin-right: .5rem;
+    color: #ff4a57;
 }
 
 .icons-link {
@@ -30,13 +32,17 @@ body {
 }
 
 .project-card {
-    background-color: #202022;
+    background-color: #2b2d41;
     margin-bottom: 2rem;
     max-width: 690px;
 
+    .project-img {
+        max-height: 300px; 
+    }
+
     .card-text {
         margin-bottom: 0;
-        padding: 1rem 1rem 0 1rem;
+        padding: 0 1rem 0 1rem;
     }
 
     .card-link-div  {
@@ -92,6 +98,14 @@ body {
     }
 }
 
+
+@media (min-width: 768px){
+    .card-img {
+        object-fit: cover;
+        object-position: 0px -30px;
+        height: 200px;
+    }
+}
 
 
 @media (min-width: 992px){
