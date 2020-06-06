@@ -6,7 +6,7 @@ const Project = ({
   Text, Github, Demo, Image,
 }) => (
   <Card className="project-card">
-    <Card.Img src={Image} />
+    <Card.Img src={Image} className="project-img" />
     <div className="card-link-div p-3">
       <a href={Github}>
         <FontAwesomeIcon icon={['fab', 'github']} className="icons-img" />

@@ -55,7 +55,7 @@ pre {
     max-width: 690px;
 
     .project-img {
-        max-height: 300px; 
+        border: 1px solid #2b2d41;
     }
 
     .card-text {
@@ -115,7 +115,6 @@ pre {
 
 
 .page {
-    // height: 100vh;
     background-color: $dark;
 }
 
