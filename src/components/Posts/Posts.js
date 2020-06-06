@@ -6,11 +6,12 @@ import Query from '../Query/index'
 import POSTS_QUERY from '../../queries/posts'
 
 const Posts = () => (
-  <Container fluid className="bg-dark sections-container">
-    <h1 className="text-primary">Blog</h1>
+  <Container fluid className="bg-dark sections-container posts-container">
+
     <Query query={POSTS_QUERY} id={null}>
       {({ data: { posts } }) => (
-        <div>
+        <Container>
+          <h1>Posts</h1>
           {posts.map((post) => (
             <PostContainer
               Title={post.Title}
@@ -19,7 +20,7 @@ const Posts = () => (
               key={post.id}
             />
           ))}
-        </div>
+        </Container>
       )}
     </Query>
   </Container>
