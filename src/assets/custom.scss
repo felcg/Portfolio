@@ -61,11 +61,12 @@ pre {
     .card-text {
         margin-bottom: 0;
         padding: 0 1rem 0 1rem;
+        color: #f84a57;
     }
 
     .card-link-div  {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-end;
     }
 
     .blog-title-list {
@@ -149,15 +150,11 @@ pre {
         font-size: 1.2rem;
         text-transform: uppercase;
         color: #ff4a57;
-        font-weight: 700;
     }
 
     .card {
         border: none;
         
-        .card-text {
-            letter-spacing: -1px;
-        }
     }
 }
 
@@ -225,8 +222,9 @@ pre {
     }
     .card-img {
         object-fit: cover;
-        object-position: 0px 0px;
+        object-position: top;
         height: 200px;
+        width: 100%;
     }
 }
 
