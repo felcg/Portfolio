@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { ApolloProvider } from 'react-apollo'
 
 
@@ -12,13 +12,13 @@ import client from './utils/apolloClient'
 
 
 const refresh = () => render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename="/">
     <ApolloProvider client={client}>
       <ErrorBoundary>
         <App />
       </ErrorBoundary>
     </ApolloProvider>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root'),
 )
 
