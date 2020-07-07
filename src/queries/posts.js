@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import gql from 'graphql-tag'
 
 const POSTS_QUERY = gql`

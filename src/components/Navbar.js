@@ -13,8 +13,8 @@ const NavBar = () => {
       <div className="text-welcome">
         <h1 className="font-weight-bold text-primary">Felipe CG</h1>
         <p className="text-light">Olá, sou um desenvolvedor web com foco em Javascript.
-          Tenho prática com React, Node.js e GraphQL. Além disso também tenho experiência com
-          bancos de dados MongoDB e PostgreSQL.
+          Tenho prática com React, Redux e Node.js. Além disso também tenho experiência com
+          bancos de dados MongoDB.
         </p>
       </div>
       <div className="icons-div">
